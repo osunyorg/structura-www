@@ -14,3 +14,10 @@ params:
   home:
     head:
       title: site
+  image_sizes:
+    sections:
+      home:
+        hero:
+          mobile:   400
+          tablet:   800
+          desktop:  1920

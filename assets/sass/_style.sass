@@ -1,0 +1,32 @@
+h1
+    color: $color-blue
+.pages__section,
+.page__home
+    .hero
+        position: relative
+        height: 100%
+        &.hero--with-image
+            @include media-breakpoint-up(desktop)
+                .content
+                    flex-direction: column-reverse
+                    padding-top: 0
+                figure, picture, img
+                    display: block
+                    width: 100% !important
+        .content
+            justify-content: center
+
+        .hero-text
+            position: relative
+            z-index: 10
+            width: 100%
+            @include media-breakpoint-up(desktop)
+                .has-lead > p
+                    width: columns(10)
+        @include media-breakpoint-down(desktop)
+            padding-bottom: $spacing-5
+            figure
+                margin: 0
+        @include media-breakpoint-down(md)
+            .container .content hgroup .has-lead > p
+                width: 100%
