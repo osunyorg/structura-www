@@ -2,31 +2,39 @@
 title: Menu principal
 items:
 - title: Nos projets
+  slug: nos-projets
   target: "/projets/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/projects"
   file: content/fr/projects/_index.html
 - title: Notre offre
+  slug: notre-offre
   target: "/notre-offre/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/notre-offre"
   file: content/fr/pages/notre-offre/_index.html
 - title: Rencontrez Structura
+  slug: rencontrez-structura
   target: "/rencontrez-structura/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/rencontrez-structura"
   file: content/fr/pages/rencontrez-structura/_index.html
 - title: Notre expertise
+  slug: notre-expertise
   target: "/notre-expertise/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/notre-expertise"
   file: content/fr/pages/notre-expertise/_index.html
 
